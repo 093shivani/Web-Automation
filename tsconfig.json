@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "commonjs",  
+    "moduleResolution": "node",
+    "declaration": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap":true,
+    "pretty": true,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "outDir": "dist/out-tsc",
+    "baseUrl": "./",
+    "typeRoots": [
+      "node_modules@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+    },
+      "include": [
+        "src/**/*"
+      ],
+      "exclude": [
+        "node_modules"
+      ],
+      "compileOnSave": false,
+      "types": ["chai","cucumber","node"]
+  }
