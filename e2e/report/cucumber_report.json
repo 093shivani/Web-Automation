@@ -1,0 +1,368 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Goibibo Test",
+    "line": 1,
+    "id": "goibibo-test",
+    "tags": [],
+    "uri": "features\\goibibo.feature",
+    "elements": [
+      {
+        "id": "goibibo-test;user-cannot-enter-numeric-data-in-source-field",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User cannot enter numeric data in Source field",
+        "tags": [
+          {
+            "name": "@current",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "steps\\goibibo.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter \"123\" into the \"gosuggest_inputSrc\" input field on Goibibo for incorrect value",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click the \"gi_search_btn\" button on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the error message should say \"Please enter a valid Source\"",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "goibibo-test;user-cannot-enter-numeric-data-in-destination-field",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "User cannot enter numeric data in Destination field",
+        "tags": [
+          {
+            "name": "@current",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "steps\\goibibo.steps.ts:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I enter \"Bangalore\" into the \"gosuggest_inputSrc\" input field on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I enter \"123\" into the \"gosuggest_inputDest\" input field on Goibibo for incorrect value",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click the \"gi_search_btn\" button on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the error message should say \"Please enter a valid Destination\"",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "goibibo-test;user-cannot-search-flights-without-valid-departure-date",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "User cannot search flights without valid departure date",
+        "tags": [
+          {
+            "name": "@current",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "steps\\goibibo.steps.ts:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I am on the \"home\" page",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I enter \"Bangalore\" into the \"gosuggest_inputSrc\" input field on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I enter \"Mumbai\" into the \"gosuggest_inputDest\" input field on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I click the \"gi_search_btn\" button on Goibibo",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the error message should say \"Please enter a valid departure date\"",
+            "match": {
+              "location": "steps\\goibibo.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "hooks\\ScenarioHook.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "..\\node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
